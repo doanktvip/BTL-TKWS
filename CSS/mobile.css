@@ -1,0 +1,85 @@
+:root{
+    --font:18px;
+}
+.content-head{
+    width: 50%;
+}
+.search input[type=text]{
+    width: 60vw;
+}
+.button-login{
+    padding: .3em .8em;
+    font-size: var(--font);
+}
+.button-login:hover{
+    padding: .3em .8em;
+}
+.content-nav{
+    display: none;
+}
+.content-but{
+    display: block;
+}
+/* .content-nav{
+    position: absolute;
+    top: 100%;
+    background-color: var(--color-popular8);
+    left: 0;
+    right: 0;
+    z-index: 9;
+    padding: 1em;
+    border-radius: 0 0 1em 1em;
+} */
+.menu-nav{
+    background-color: var(--color-popular4);
+    opacity: 1;
+}
+.content-nav .menu{
+    width: 70%;
+    background-color: var(--color-popular4);
+    height: 100vh;
+}
+.active{
+    border-radius: 1em;
+}
+.content-footer{
+    flex-wrap: wrap;
+}
+.content-foot{
+    width: 50%;
+}
+.content-image{
+    width: 100%;
+}
+.content-70 .content-new{
+    display: block !important;
+}
+.content-70 .content-new-img{
+    width: 100%;
+}
+.content-new-text{
+    width: 100%;
+}
+.popup{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 8px;
+    right: 8px;
+    z-index: 2;
+    background-color: var(--color-popular8);
+    animation: move 5s linear 1s;
+}
+.close{
+    display: block;
+    position: fixed;
+    color: white;
+    right: .5em;
+    top: 0;
+    font-size: 50px;
+    margin: 0;
+    z-index: 1000;
+}
+.content-nav{
+    width: 100%;
+}
